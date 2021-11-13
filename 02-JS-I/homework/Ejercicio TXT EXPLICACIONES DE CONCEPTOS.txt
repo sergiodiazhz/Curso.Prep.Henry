@@ -1,0 +1,29 @@
+--
+"En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión."
+
+---
+• Variables
+
+Son valores almacenados para utilizar en el programa, hay de tipos diferentes tipos (ejemplos: numeros)
+
+---
+• Strings
+Es un tipo de variable, un tipo de valor o dato.
+
+---
+• Funciones (argumentos, return)
+Las funciones nos permiten guardar un proceso dentro de ella, para luego invocar directamente el nombre de dicha función y ahorrarnos escribir código.
+Las funciones puede tener argumentos, por ejemplo, valores y/o variables con las cuales ejecutar el proceso que contiene la funicón.
+Dicha función puede retorna un resultado de su proceso con la palabra return
+
+---
+• Declaraciones if
+Las declaraciones if sirve para comprobar condiciones y cambiar el comportamiento del programa según esas condiciones.
+
+---
+• Valores booleanos (true, false)
+
+Es un tipo de variable, un tipo de valor o dato que establece si una afirmación es verdadera o falsa respectivamente.
+
+---
+---
