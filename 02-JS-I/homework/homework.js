@@ -91,14 +91,12 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num>50) {
     return true}
-    else return false
-  }
-}
+    else return false}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return (x/y)
+  return (x % y)
 }
 
 function esPar(num) {
@@ -123,37 +121,37 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  Math.pow (num, 2)
+  return Math.pow (num, 2)
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  Math.pow (num, 3)  
+  return Math.pow (num, 3)  
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  Math.pow (num, exponent)
+  return Math.pow (num, exponent)
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round(num)  
+  return Math.round(num)  
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math.ceil (num)
+  return Math.ceil (num)
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  Math.random()
+  return Math.random()
 }
 
 function esPositivo(numero) {
@@ -166,7 +164,7 @@ function esPositivo(numero) {
   } else if (numero < 0){
     return "Es negativo"}
     else if (numero = 0){
-  } return false}
+    return false}
 }
 
 function agregarSimboloExclamacion(str) {
@@ -227,12 +225,10 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length > 1) {
     return "Dato incorrecto"}
-    else if ((letra == a || e || i || o || u) {
+    else if (letra == "a" || "e" || "i" || "o" || "u") {
       return "Es vocal"
-    }
-    return  "Dato incorrecto"
+    } else return "Dato incorrecto"
 }
-
 
 
 // No modificar nada debajo de esta línea
