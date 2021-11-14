@@ -154,16 +154,16 @@ function numeroRandom() {
   return Math.random()
 }
 
-function esPositivo(numero) {
+function esPositivo (numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero > 0){
-    return "Es positivo"
-  } else if (numero < 0){
+  if (numero > 0) {
+    return "Es positivo"}
+    else if (numero < 0) {
     return "Es negativo"}
-    else if (numero = 0){
+    else if (numero == 0) {
     return false}
 }
 
@@ -225,7 +225,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length > 1) {
     return "Dato incorrecto"}
-    else if (letra == "a" || "e" || "i" || "o" || "u") {
+    else if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
       return "Es vocal"
     } else return "Dato incorrecto"
 }
