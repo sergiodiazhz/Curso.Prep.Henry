@@ -1,0 +1,27 @@
+---
+"En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión."
+
+---
+• for
+
+Es una palabra clave para crear un blucle en el programa.
+Los bucles sirven para ejecutar algún proceso mientras se vayan dado ciertas condiciones.
+De modo que podemos detenernos cuando se cumpla cierta condición.
+
+---
+• &&
+
+Es un operador lógico, este permite realizar comprobaciones sobre si todas las afirmaciones separadas por el '&&' son verdaderas.
+
+---
+• ||
+
+Es un operador lógico, este permite realizar comprobaciones sobre alguna de las afirmaciones separadas por '||' son verdaderas.
+
+---
+• !
+
+Es el operador lógico NOT, el mismo devolverá el valor booleano opuesto de lo que se está comprobando.
+Por ejemplo sidecimos que (1 !=== 1) el resultado será 'false', dado que afirmar que estos valores NO SON IGUALES es incorrecto.
+
+---
