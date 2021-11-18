@@ -1,0 +1,33 @@
+---
+"En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión."
+
+---
+• Objetos
+
+Los objetos son una colección de funcionalidad o datos relacionados (pueden ser variables, funciones, etc.)
+
+---
+• Propiedades
+
+Una propiedad es una asociación entre un nombre (o clave) y un valor.
+
+---
+• Métodos
+
+El valor de una propiedad puede ser una función, en cuyo caso la propiedad es conocida como un método.
+
+---
+• Bucle for…in
+
+Una alternativa al bucle for, para recorridos a propiedades de objetos en Javascript. Cómo iterar por las propiedades y los valores de las propiedades de un objeto, de manera genérica en Javascript con el bucle for ... in.
+
+---
+• Notación de puntos vs notación de corchetes
+
+Notación de puntos:
+	objeto.color = verde;
+
+Notación de corchetes:
+	objeto[color] = verde;
+
+---
